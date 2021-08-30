@@ -85,7 +85,6 @@ font.init()
 font1 = font.Font(None,36)
 font2 = font.Font(None,100)
 bullets = sprite.Group()
-fire_mode = [['bullet.png', 20,35], ['bullet_4.png',80,65]]
 for i in range(5):
     monsters.add(UFO_1('UFO.png',random.randint(0,1300),random.randint(-100,200),1,100,100))
 score = 0
